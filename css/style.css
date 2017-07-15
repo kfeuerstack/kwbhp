@@ -1,0 +1,47 @@
+/*@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500');*/
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+body {
+height: 100%;
+/*font-family: 'Roboto', sans-serif;*/
+font-weight: 400;
+font-size: 1em;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+}
+.bg {
+background: url("../img/bg.jpg") no-repeat top fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+.title {
+text-align: center;
+color:  #FFF;
+font-weight: 300;
+font-size: 4em;
+margin-bottom: 5%;
+/*text-shadow: 1px 1px 2px black; */
+text-shadow: 4px 4px 31px rgba(0,0,0,0.6);
+font-family: 'Roboto Condensed', sans-serif;
+}
+.subtitle {
+text-align:  center;
+color:  #FFF;
+text-shadow: 4px 4px 31px rgba(0,0,0,0.6);
+}
+.label {
+color:  #FFF;
+font-weight: 500;
+text-shadow: 4px 4px 31px rgba(0,0,0,0.6);
+}
+.conversionForm {
+margin-top:  ;
+}
+/*footer {
+position:fixed;
+left:0px;
+bottom:0px;
+height:56px;
+width:100%;
+}*/
